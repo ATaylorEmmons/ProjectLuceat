@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="Engine.SpriteManagement.SpriteSheetData">
+  
+	 <TextureName>textures/SpriteSheet1</TextureName>
+	 <BoundsData>
+		<Item>RedShip,0,0,127,127</Item>
+		<Item>Particle1,128,0,127,127</Item>
+		<Item>BlueShip,0,128,127,127</Item>
+		<Item>Particle2,128,128,127,127</Item>
+		
+		<Item>Dirt,256,0,127,127</Item>
+		<Item>Grass,384,0,127,127</Item>
+		<Item>Stone,256,128,127,127</Item>
+		<Item>Water,384,128,127,127</Item>	
+	</BoundsData>
+	 
+  </Asset>
+</XnaContent>

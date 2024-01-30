@@ -1,0 +1,45 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\Engine\bin\Debug\net6.0\Engine.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Fonts/Arial.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/Arial.spritefont
+
+#begin textures/SpriteSheet1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:textures/SpriteSheet1.png
+
+#begin xml/SpriteSheet1.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:xml/SpriteSheet1.xml;xml/MainObjects
+
+#begin xml/TheKingdom.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:xml/TheKingdom.xml;xml/KingdomMap
+

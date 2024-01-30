@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="Engine.TileEngine.TileMapData">
+	  <Width>5</Width>
+	  <Height>4</Height>
+    <TileTypes>
+      0, 0, 0, 0,
+	  0, 1, 2, 0,
+	  0, 2, 2, 0,
+	  0, 0, 0, 0
+    </TileTypes>
+  </Asset>
+</XnaContent>
