@@ -11,6 +11,11 @@ namespace Engine.Input
 {
     public static class InputManager
     {
+        /*
+        TODO:
+            - Implement an input config file (using commands)
+        */
+        
         private static MouseState _lastMouseState;
 
         public static bool HasClicked { get; private set; }
