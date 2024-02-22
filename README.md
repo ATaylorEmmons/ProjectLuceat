@@ -1,8 +1,8 @@
 # ProjectLuceat
 
-A game engine written in C# using the MonoGame framework.
+A game engine with C# and MonoGame [https://monogame.net/].
 
-Uses an Scenes and an Entity Component System to manage game objects. 
+Uses Scenes and an Entity Component System to manage game objects. 
 
 # Brief reminder on building scenes
 1) Scenes contain some default objects (A camera, particle system, sprite system, etc). 
