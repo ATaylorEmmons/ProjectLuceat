@@ -11,12 +11,10 @@ Uses an Scenes and an Entity Component System to manage game objects.
 
 # Development Reminders
  - Any component or system that could easily be scene in ALL graphical applications need to be developed in the Engine project.
- - Any component that is specific (Lookin' at you Components.CircleExhaustEmitter) should go in the "ProjectLuceat" project.
+ - Any component that is specific (Lookin' at you ProjectLuceat.GameComponents.CircleExhaustEmitter) should go in the "ProjectLuceat" project.
 
 # Todo's
  - Immediate Mode UI (For Reference: https://caseymuratori.com/blog_0001) [Implement on GPU, outside of SpriteBatch?]
- - Physics collision phases (Likely will be a quad tree)
+ - Physics collision phases (broad phase will likely be a quad tree)
  - Frustrum culling within the SpriteSystem
  - Input Configuration file [Command Pattern: https://gameprogrammingpatterns.com/command.html]
- - TileEngine
- - GPU particle system
